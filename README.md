@@ -99,6 +99,38 @@ Multiple Contexts(Thread groups/Warps)
 Can hide stall times
 
 ## 2 Hardware and Software
+![](images/ch2/sw2hw.png)
+
+### CUDA
+Grid <- Blocks <- Threads
+
+Grid, Block
+Number of blocks specified in three dimensions 
+dimGrid(X, Y, Z)
+
+example
+Define how many blocks<br />
+dim3 dimGrid(1, 1, 1);
+
+Block, Thread
+Number of threads per block is specified in three dimensions 
+dimBlock(X, Y, Z)
+
+example
+Define how many threads per block.<br />
+dim3 dimBlock(M.height * N.width, 1, 1);
+
+Kernel is a dimGrid; 
+each block in the grid has;<br />
+
+example
+MatrixMulKernel<<< dimGrid, dimBlock>>>(AonGPU, BonGPU, ConGPU);<br />
+
+### Threads and Thread Blocks
+### Thread Assignment
+
+macroscopically
+### NVIDA Fermi(GeForce400) pipeline microscopically
 
 ## 3 GPU Memory Hierarchy
 
@@ -118,3 +150,5 @@ kernel < thread block < warps < 32 threads
 ![](images/ch7/cuda_vs_opencl.png)
 
 ## 8 GPU Interconnects
+
+
