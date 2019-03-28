@@ -133,6 +133,9 @@ macroscopically
 ### NVIDA Fermi(GeForce400) pipeline microscopically
 
 ## 3 GPU Memory Hierarchy
+### Layout
+![](images/ch3/fermi_layout.png)
+![](images/ch3/fermi_sm_layout.png)
 
 ## 4 GPU Core Microarchitecture
 - Fetch & Decode
@@ -141,6 +144,10 @@ Traditional hazard detection score board for RAW and WAW hazards<br />
 - Operand Collector, for Register Read
 - Instruction Scheduler
 - Execution Stage
+
+### Four execution blocks within a Fermi SM
+
+![](images/ch4/fermi_execution.png)
 
 ## 5 Branch Divergence
 
