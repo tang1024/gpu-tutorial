@@ -134,7 +134,13 @@ macroscopically
 
 ## 3 GPU Memory Hierarchy
 
-## 4 GPU Core Microachitecture
+## 4 GPU Core Microarchitecture
+- Fetch & Decode
+- Scoreboard<br />
+Traditional hazard detection score board for RAW and WAW hazards<br />
+- Operand Collector, for Register Read
+- Instruction Scheduler
+- Execution Stage
 
 ## 5 Branch Divergence
 
