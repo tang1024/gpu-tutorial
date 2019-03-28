@@ -4,7 +4,7 @@
 - [1. CPU and GPU](#1-cpu-and-gput)
 - [2. Hardware and Software](#2-hardware-and-software)
 - [3. GPU Memory Hierarchy](#3-gpu-memory-hierarchy)
-- [4. GPU Core Microachitecture](#4-gpu-core-microachitecture)
+- [4. GPU Core Microarchitecture](#4-gpu-core-microarchitecture)
 - [5. Branch Divergence](#5-branch-divergence)
 - [6. NVIDIA GPU Technologies](#6-nvidia-gpu-technologies)
 - [7. AMD GPU Technologies](#7-amd-gpu-technologies)
